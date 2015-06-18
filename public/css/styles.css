@@ -1,0 +1,41 @@
+.body {
+  background-image: url('line-tile.png');
+}
+
+.header-container {
+  height: 7em;
+  background: transparent;
+}
+
+.nav-menu {
+  margin-top: 1em;
+}
+
+.nav-menu-glyph {
+  margin-top: 1em;
+}
+
+.nav-link {
+  margin: .75em;
+  font-variant: small-caps;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.footer-text {
+  color: #ffffff;
+}
+
+@media (max-width: 475px) {
+  .header-container {
+    height: 3em;
+  }
+
+  .nav-menu-glyph {
+    margin-top: 0;
+  }
+
+  .logo {
+    height: 100%;
+  }
+}
